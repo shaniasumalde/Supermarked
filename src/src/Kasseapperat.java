@@ -61,7 +61,6 @@ public class Kasseapperat {
                 }
             }
 
-            // 2. Print linjerne
             System.out.println("========== KASSEBON ==========");
             for (String id : antal.keySet()) {
                 Varer vare = alleVarer.get(id);
